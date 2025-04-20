@@ -1,3 +1,5 @@
+package org.lewapnoob
+/*
 import org.lwjgl.glfw.GLFW.*
 import org.lwjgl.opengl.GL
 import org.lwjgl.opengl.GL11.*
@@ -6,7 +8,7 @@ import org.lwjgl.system.MemoryStack
 import org.lwjgl.system.MemoryUtil.NULL
 import kotlin.math.*
 import kotlin.properties.Delegates
-/*
+
 const val SCREEN_WIDTH = 1280
 const val SCREEN_HEIGHT = 720
 const val TILE_SIZE = 64 // Rozmiar kostki w świecie gry (dla raycastingu i kolizji)
@@ -405,4 +407,5 @@ fun loadTexture(path: String): Int {
     }
 
     return texId
-} */
+}
+*/

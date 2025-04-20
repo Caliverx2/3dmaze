@@ -1,9 +1,11 @@
+package org.lewapnoob
+/*
 import org.lwjgl.glfw.GLFW.*
 import org.lwjgl.opengl.GL
 import org.lwjgl.opengl.GL11.*
 import org.lwjgl.system.MemoryUtil.NULL
 import kotlin.math.*
-/*
+
 const val SCREEN_WIDTH = 1280
 const val SCREEN_HEIGHT = 720
 const val MAP_SIZE_X = 8
@@ -47,7 +49,7 @@ var playerPitch = 0.0 // Kąt w pionie (radiany, patrzenie góra/dół)
 
 fun main() {
     if (!glfwInit()) throw RuntimeException("GLFW init failed")
-    val window = glfwCreateWindow(SCREEN_WIDTH, SCREEN_HEIGHT, "3D Raycasting Prototype", NULL, NULL)
+    val window = glfwCreateWindow(SCREEN_WIDTH, SCREEN_HEIGHT, "raycasting-3dx(3d)-OpenGL.kt", NULL, NULL)
     glfwMakeContextCurrent(window)
     glfwSetInputMode(window, GLFW_STICKY_KEYS, GLFW_TRUE)
     GL.createCapabilities()
@@ -229,4 +231,5 @@ fun castRayVertical(hitX: Double, hitY: Double, hitZ: Double, angleY: Double, di
         dist += 1.0
     }
     return Pair(MAX_DEPTH, 0)
-} */
+}
+*/

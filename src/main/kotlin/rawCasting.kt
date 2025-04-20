@@ -1,3 +1,5 @@
+package org.lewapnoob
+/*
 import java.awt.*
 import java.awt.event.*
 import java.awt.image.BufferedImage
@@ -17,7 +19,7 @@ val map = arrayOf(
     arrayOf(1, 0, 1, 0, 1, 0, 1, 0, 0, 0, 1),
     arrayOf(1, 0, 1, 0, 1, 0, 0, 0, 1, 0, 1),
     arrayOf(1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 1),
-    arrayOf(1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1),
+    arrayOf(1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1)
 )
 
 class Player(var x: Double, var y: Double, var angle: Double)
@@ -155,7 +157,7 @@ class Raycaster3D : JPanel(), KeyListener {
 
 fun main() {
     SwingUtilities.invokeLater {
-        val frame = JFrame("Raycasting 3D in Kotlin")
+        val frame = JFrame("raycasting-3x(3d)")
         frame.defaultCloseOperation = JFrame.EXIT_ON_CLOSE
         frame.contentPane.add(Raycaster3D())
         frame.pack()
@@ -163,3 +165,4 @@ fun main() {
         frame.isVisible = true
     }
 }
+*/

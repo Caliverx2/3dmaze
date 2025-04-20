@@ -1,10 +1,12 @@
+package org.lewapnoob
+/*
 import java.awt.*
 import java.awt.event.KeyAdapter
 import java.awt.event.KeyEvent
 import java.awt.image.BufferedImage
 import javax.swing.JFrame
 import kotlin.math.*
-/*
+
 const val SCREEN_WIDTH = 1280
 const val SCREEN_HEIGHT = 720
 const val MAP_SIZE_X = 16
@@ -44,7 +46,7 @@ var playerAngle = 0.0 // Kąt w poziomie (radiany)
 var playerPitch = 0.0 // Kąt w pionie (radiany)
 
 fun main() {
-    val frame = JFrame("3D Raycasting Prototype").apply {
+    val frame = JFrame("raycasting-3dx(3d)-withoutOpenGL.kt").apply {
         defaultCloseOperation = JFrame.EXIT_ON_CLOSE
         setSize(SCREEN_WIDTH, SCREEN_HEIGHT)
         isResizable = false
@@ -237,4 +239,5 @@ fun isWalkable(x: Double, y: Double): Boolean {
             my in 0 until MAP_SIZE_Y &&
             mz in 0 until MAP_SIZE_Z &&
             map[mz][my][mx] == 0
-} */
+}
+*/

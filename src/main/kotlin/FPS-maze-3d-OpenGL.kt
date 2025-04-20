@@ -44,7 +44,7 @@ fun main() {
     // Konfiguracja okna
     glfwWindowHint(GLFW_VISIBLE, GLFW_FALSE)
     glfwWindowHint(GLFW_RESIZABLE, GLFW_TRUE)
-    val window = glfwCreateWindow(1280, 720, "FPS Maze Game", MemoryUtil.NULL, MemoryUtil.NULL)
+    val window = glfwCreateWindow(1280, 720, "FPS-maze-3d-OpenGL", MemoryUtil.NULL, MemoryUtil.NULL)
     if (window == MemoryUtil.NULL) {
         throw RuntimeException("Nie można utworzyć okna")
     }
@@ -283,4 +283,5 @@ fun renderMaze(map: Map) {
     }
 
     glEnd()
-} */
+}
+*/

@@ -1,8 +1,10 @@
+package org.lewapnoob
+/*
 import java.awt.*
 import java.awt.event.*
 import javax.swing.*
 import kotlin.math.*
-/*
+
 const val SCREEN_WIDTH = 800
 const val SCREEN_HEIGHT = 600
 const val MAP_SCALE = 64
@@ -16,7 +18,7 @@ val map = arrayOf(
     arrayOf(1, 0, 1, 0, 1, 0, 0, 1),
     arrayOf(1, 0, 1, 0, 1, 0, 0, 1),
     arrayOf(1, 0, 0, 0, 0, 0, 0, 1),
-    arrayOf(1, 1, 1, 1, 1, 1, 1, 1),
+    arrayOf(1, 1, 1, 1, 1, 1, 1, 1)
 )
 
 class Player(var x: Double, var y: Double, var angle: Double)
@@ -130,7 +132,7 @@ class RaycastVisualizer : JPanel(), KeyListener {
 
 fun main() {
     SwingUtilities.invokeLater {
-        val frame = JFrame("Raycast Collision Visualizer")
+        val frame = JFrame("MinMap-Visualizer")
         frame.defaultCloseOperation = JFrame.EXIT_ON_CLOSE
         frame.contentPane.add(RaycastVisualizer())
         frame.pack()
